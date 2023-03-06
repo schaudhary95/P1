@@ -1,0 +1,446 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  background-color: black;
+  position: sticky;
+  height: 60px;
+  align-items: center;
+  top: 0;
+}
+
+.logo img {
+  height: 55px;
+  align-items: left;
+  padding-left: 20px;
+  margin: 2%;
+  padding-top: 0.5px;
+}
+
+.deliverto {
+  color: #acbfc4;
+  height: 40px;
+  width: 5%;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  font-family: 'Amazon Ember', sans-serif;
+}
+
+.deliverto:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.deliverToText{
+  height: 40%;
+  align-items: baseline;
+  font-size: small;
+}
+
+.deliverToRegion{
+  color: white;
+  height: 60%;
+  margin-bottom: 10%;
+  align-items: top;
+  font-weight: 700;
+}
+
+.logosandicons img:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.btn img {
+  width: 26px;
+}
+
+.search {
+  display: flex;
+  background-color: white;
+  width: 60%;
+  height: 36px;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.search input {
+  height: 36px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  padding: 0 16px;
+  border: 0;
+}
+
+.btn {
+  border:  0;
+  cursor: pointer;
+  background: rgba(85, 0, 255, 0.768);
+  background: #8f47f3; 
+  padding: 6px 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+.btn:hover {
+  background: rgba(10, 207, 164, 0.768);
+}
+
+.navTextItem {
+  color: white;
+  height: 40px;
+  width: 10%;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1%;
+  font-family: 'Amazon Ember', sans-serif;
+}
+
+.navTextItem:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.upperText{
+  height: 40%;
+  align-items: baseline;
+  font-size: small;
+}
+
+.lowerText{
+  color: white;
+  height: 60%;
+  margin-bottom: 10%;
+  align-items: top;
+  font-weight: 700;
+}
+
+#cart img{
+  width: 100%;
+  height: 40px;
+  padding-right: 20px;
+}
+
+.icons {
+  margin: 10px;
+}
+
+.icons:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.subnav {
+  display: flex;
+  background-color: #741850;
+  padding: 5px;
+  margin-bottom: auto;
+}
+
+.subnav a {
+  color: white;
+  padding: 2px;
+  text-decoration: none;
+  font-family: 'Amazon Ember', sans-serif;
+  font-size: 14px;
+  margin-left: 1%;
+}
+
+.subnav a:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+/* Products Slider */
+.product-slider {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.product-container {
+  padding: 0 10px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.pre-btn,
+.next-btn {
+  border: none;
+  width: 5%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1;
+}
+
+.pre-btn p:hover, .next-btn p:hover{
+  box-shadow: 0px 0px 10px 1px rgb(92, 92, 92);
+  transition: all 0.2s;
+} 
+
+.next-btn {
+  right: 0;
+}
+
+.next-btn p,
+.pre-btn p {
+  font-size: 250%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0px;
+  color: rgb(0, 0, 0);
+  width: 50%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-product {
+  border: none;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+/* All Deals */
+
+.alldeals {
+  height: 150px;
+  background-color: #EAEDED;
+}
+
+.alldeals ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.alldeals ul li{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 1%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.alldeals ul li img {
+  width: 80px;
+}
+.alldeals ul li span {
+  width: 120px;
+  font-size: medium;
+  font-weight: 500;
+}
+
+/* Products */
+
+.card {
+  cursor: pointer;
+}
+
+.col-md-3 { 
+  margin: 0; 
+  padding: 0;
+} 
+
+.card-img-top {
+  padding: 10%;
+  max-height: 40vh;
+  object-fit:contain;
+}
+
+/* Bar */
+
+.bar {
+  text-align: center;
+  padding: 5px;
+}
+
+.bar button {
+  width: 17%;
+  border: 1px solid rgba(255, 166,0, 0.898);
+  cursor: pointer;
+  font-size: 25px;
+  background-color: rgba(255, 166,0, 0.898);
+  border-radius: 4px;
+  font-family: 'Amazon Ember', sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ffe093;
+}
+
+.bar a {
+  text-decoration: none;
+  color: rgb(11,121,181);
+}
+
+.backtotop {
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  color: #ffffff;
+  height: 50px;
+  font-size: 15px;
+  background-color: #2f553c;
+  font-family: 'Amazon Ember', sans-serif;
+}
+
+.backtotop:hover{
+  background-color: #2f4055d9;
+}
+
+/* Footer */
+
+.subfooter {
+  background-color: #222e3d;
+  text-align: center;
+  padding: 30px;
+}
+
+.subfooter img{
+  width: 8%;
+  padding-top:  10px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+#language {
+  height: 10%;
+  width: 10%;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #222e3d;
+  box-sizing: content-box;
+}
+
+footer {
+  background-color: #131a22;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 620px) {
+  nav{
+    flex-direction: column;
+    height: 120px;
+  }
+  .logosandicons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .logo{
+    margin: 0 5vw;
+  }
+  .deliverto{
+    display: none;
+  }
+  .search{
+    margin-left: auto;
+  }
+  .icons {
+    display: none;
+  }
+  .subnav{
+    display: none;
+  }
+  .items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .items .buttons {
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    height: 20%;
+    padding: 6px;
+  }
+  .subfooter {
+    display: flex;
+  }
+  #language {
+    padding-right: 10px;
+  }
+  .subfooter img {
+    height: 20%;
+    width: 20%;
+  }
+}

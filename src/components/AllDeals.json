@@ -1,0 +1,48 @@
+{"allDeals": [
+    {
+      "name": "All Deals",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Alldeals_white._CB468586681_.png"
+    },
+    {
+      "name": "Video Games",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Video_white._CB468586673_.png"
+    },
+    {
+      "name": "Computers & Accessories",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Computers_white._CB468586682_.png"
+    },
+    {
+      "name": "Electronics",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Electronics_white._CB468586680_.png"
+    },
+    {
+      "name": "Beauty",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Beauty_white._CB468586681_.png"
+    },
+    {
+      "name": "Toys & Games",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Toys_white._CB468586676_.png"
+    },
+    {
+      "name": "Fashion",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Fashion_white._CB468586683_.png"
+    },
+    {
+      "name": "Home",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Home_white._CB468586683_.png"
+    },
+    {
+      "name": "Sports & Outdoors",
+      "image":
+        "https://m.media-amazon.com/images/G/01/goldbox/images/faceout/Sports_white._CB468586678_.png"
+    }
+  ]
+}

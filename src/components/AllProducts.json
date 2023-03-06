@@ -1,0 +1,103 @@
+{"products": [
+  {
+    "name": "KODAK Photo Printer and Instant Camera",
+    "image":
+      "https://m.media-amazon.com/images/I/41N9ORsaxUL._AC_UF226,226_FMjpg_.jpg",
+    "price": "245$"
+  },
+  {
+    "name": "JiaSifu 40x60 High Definition Monocular Telescope with Smartphone Adapter, BAK4",
+    "image":
+    "https://m.media-amazon.com/images/I/41Qg4n1USJL._AC_UF226,226_FMjpg_.jpg",
+    "price": "10.5$"
+  },
+  {
+    "name": "Samsung Galaxy S23 Series with Amazon Gift Card",
+    "image":
+      "https://m.media-amazon.com/images/I/41T3qyD5J2L._AC_UF226,226_FMjpg_.jpg",
+    "price": "680$"
+  },
+  {
+    "name": "Kindle Paperwhite Kids Devices",
+    "image":
+      "https://m.media-amazon.com/images/I/4121kHV7qeL._AC_UF226,226_FMjpg_.jpg",
+    "price": "680.95$"
+  },
+  {
+    "name": "Monitors and Accessories from Acer, MSI, Samsung, Sceptre, and more",
+    "image":
+      "https://m.media-amazon.com/images/I/51SUoKqMxaL._AC_UF226,226_FMjpg_.jpg",
+    "price": "799.99$"
+  },
+  {
+    "name": "Double Tipped Art Marker Set for Artist Adults Coloring Sketching Drawing Alcohol-based Ink - Brush Chisel Dual Tips 48 Colors",
+    "image":
+    "https://m.media-amazon.com/images/I/5113K49iJsL._AC_UF226,226_FMjpg_.jpg",
+    "price": "899.99$"
+  }
+  ,
+  {
+    "name": "TP-Link Deco WiFi 6 and PoE Mesh WiFi systems",
+    "image":
+    "https://m.media-amazon.com/images/I/31UTj7T23YL._AC_UF226,226_FMjpg_.jpg",
+    "price": "150.99$"
+  }
+  ,
+  {
+    "name": "Gaming Laptops and Desktops from Dell, MSI, Razer, Skytech and more",
+    "image":
+      "https://m.media-amazon.com/images/I/51dZCJ7-2jL._AC_UF226,226_FMjpg_.jpg",
+    "price": "999.99$"
+  },
+    {
+      "name": "KODAK Photo Printer and Instant Camera",
+      "image":
+        "https://m.media-amazon.com/images/I/41N9ORsaxUL._AC_UF226,226_FMjpg_.jpg",
+      "price": "245$"
+    },
+    {
+      "name": "JiaSifu 40x60 High Definition Monocular Telescope with Smartphone Adapter, BAK4",
+      "image":
+      "https://m.media-amazon.com/images/I/41Qg4n1USJL._AC_UF226,226_FMjpg_.jpg",
+      "price": "10.5$"
+    },
+    {
+      "name": "Samsung Galaxy S23 Series with Amazon Gift Card",
+      "image":
+        "https://m.media-amazon.com/images/I/41T3qyD5J2L._AC_UF226,226_FMjpg_.jpg",
+      "price": "680$"
+    },
+    {
+      "name": "Kindle Paperwhite Kids Devices",
+      "image":
+        "https://m.media-amazon.com/images/I/4121kHV7qeL._AC_UF226,226_FMjpg_.jpg",
+      "price": "680.95$"
+    },
+    {
+      "name": "Monitors and Accessories from Acer, MSI, Samsung, Sceptre, and more",
+      "image":
+        "https://m.media-amazon.com/images/I/51SUoKqMxaL._AC_UF226,226_FMjpg_.jpg",
+      "price": "799.99$"
+    },
+    {
+      "name": "Double Tipped Art Marker Set for Artist Adults Coloring Sketching Drawing Alcohol-based Ink - Brush Chisel Dual Tips 48 Colors",
+      "image":
+      "https://m.media-amazon.com/images/I/5113K49iJsL._AC_UF226,226_FMjpg_.jpg",
+      "price": "899.99$"
+    }
+    ,
+    {
+      "name": "TP-Link Deco WiFi 6 and PoE Mesh WiFi systems",
+      "image":
+      "https://m.media-amazon.com/images/I/31UTj7T23YL._AC_UF226,226_FMjpg_.jpg",
+      "price": "150.99$"
+    }
+    ,
+    {
+      "name": "Gaming Laptops and Desktops from Dell, MSI, Razer, Skytech and more",
+      "image":
+        "https://m.media-amazon.com/images/I/51dZCJ7-2jL._AC_UF226,226_FMjpg_.jpg",
+      "price": "999.99$"
+    }
+  ]
+}
