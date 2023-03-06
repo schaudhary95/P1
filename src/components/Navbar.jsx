@@ -1,6 +1,6 @@
 import React from "react";
 import storeLogo from "../images/storeLogo2.png";
-// import amazonLogo from "../images/storeLogo1.png";
+// import storeLogo1 from "../images/storeLogo1.png";
 import searchIcon from "../images/search.png";
 import cartIcon from "../images/cart.png";
 
